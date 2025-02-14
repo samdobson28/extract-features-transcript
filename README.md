@@ -52,11 +52,11 @@ project/
    - Idea: Use **cross-referencing** between extracted segments and existing **annotations** in our dataset.
 
 2. **Feature Engineering**
+   - **IMPORTANT**: should use different segment lengths for different features based on past research.
    - Consider additional **speech-related features** such as:
      - **Prosody:** Pitch variation, loudness
      - **Pauses & Silence Detection:** Frequency of pauses
      - **Voice Timbre Features:** Harmonic-to-noise ratio
-   -**IMPORTANT**: should use different segment lengths for different features based on past research.
 
 3. **Model Training Pipeline**
    - Once aligned, these features can be **fed into an ML model** (e.g., LSTM, Transformers) to predict empathy categories.
