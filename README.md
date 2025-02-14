@@ -59,7 +59,6 @@ project/
      - **Voice Timbre Features:** Harmonic-to-noise ratio
 
 3. **Model Training Pipeline**
-   - Once aligned, these features can be **fed into an ML model** (e.g., LSTM, Transformers) to predict empathy categories.
    - Test **zero-shot** or **few-shot** classification using LLMs.
 
 4. **Data Visualization**
