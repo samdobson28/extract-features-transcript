@@ -48,8 +48,8 @@ project/
 
 ## Next Steps
 1. **Align Features with Empathy Annotations**
-   - Your dataset includes **empathetic, neutral, and anti-empathetic** labels. These should be **matched to corresponding timestamps** in the segmented audio.
-   - Idea: Use **cross-referencing** between extracted segments and existing **annotations** in your dataset.
+   - our dataset includes **empathetic, neutral, and anti-empathetic** labels. These should be **matched to corresponding timestamps** in the segmented audio.
+   - Idea: Use **cross-referencing** between extracted segments and existing **annotations** in our dataset.
 
 2. **Feature Engineering**
    - Consider additional **speech-related features** such as:
@@ -66,7 +66,7 @@ project/
    - Example: Compare **pitch variation** in empathetic vs. neutral segments.
 
 5. **Fine-tuning Whisper for Speech-to-Text**
-   - If transcription accuracy needs improvement, consider **fine-tuning Whisper** on your dataset.
+   - If transcription accuracy needs improvement, consider **fine-tuning Whisper** on our dataset.
 
 ## Questions / Issues?
 Feel free to tweak the segment length, try different feature extraction methods, or explore alternative ASR models.
