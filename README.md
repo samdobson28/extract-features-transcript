@@ -56,6 +56,7 @@ project/
      - **Prosody:** Pitch variation, loudness
      - **Pauses & Silence Detection:** Frequency of pauses
      - **Voice Timbre Features:** Harmonic-to-noise ratio
+   -**IMPORTANT**: should use different segment lengths for different features based on past research.
 
 3. **Model Training Pipeline**
    - Once aligned, these features can be **fed into an ML model** (e.g., LSTM, Transformers) to predict empathy categories.
@@ -72,4 +73,4 @@ project/
 Feel free to tweak the segment length, try different feature extraction methods, or explore alternative ASR models.
 
 ---
-🚀 **Next step:** Implement **label alignment** and **model training** for empathy classification!
+🚀 **Next step:** Conduct feature analysis, modify feature extraction pipeline based on analysis, begin one and few shots w LLMs. **IMPORTANT**: should use different segment lengths for different features based on past research.
